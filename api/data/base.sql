@@ -11,8 +11,8 @@ CREATE TABLE IF NOT EXISTS usuario(
 	ativo BOOLEAN DEFAULT TRUE,
 
     CONSTRAINT pk_usuario PRIMARY KEY (id),
-    CONSTRAINT uk_usuario_email UNIQUE (email),
-    CONSTRAINT uk_usuario_telefone UNIQUE (telefone)
+    CONSTRAINT uk_usuario_telefone UNIQUE (telefone),
+    CONSTRAINT uk_usuario_email UNIQUE (email)
 );
 
 DROP TABLE IF EXISTS permissao CASCADE;
