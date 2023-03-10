@@ -1,0 +1,25 @@
+.homeScreen {
+  display: flex;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 30px 0;
+}
+
+.friends {
+  position: absolute;
+  width: 300px;
+  height: 90%;
+  right: 0;
+  top: 100px;
+  background-color: #edc951;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+}

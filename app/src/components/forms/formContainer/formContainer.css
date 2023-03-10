@@ -1,0 +1,20 @@
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 600px;
+}
+
+.loginForm {
+  flex-direction: column;
+  align-items: center;
+}
+
+.editForm {
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

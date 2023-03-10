@@ -1,0 +1,15 @@
+.userScreen {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.editBox {
+  background-color: #edc951;
+  border-radius: 15px;
+  width: 400px;
+  height: 320px;
+  margin: 20px;
+  gap: 0;
+}

@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sec_tcc
+    username: sectcc
+    password: sectcc
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: crescer.cwi.sec@gmail.com
+    password: vrbnxzfgqgzgykkl
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com

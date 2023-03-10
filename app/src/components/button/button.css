@@ -1,0 +1,46 @@
+.button {
+  border-radius: 10px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  border: 0;
+}
+
+.headerButton {
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.textButton {
+  width: 250px;
+  height: 40px;
+  background-color: #058789;
+  margin: 20px 0;
+}
+
+.colorRed {
+  background-color: #cc333f;
+}
+
+.colorRedText {
+  color: #cc333f;
+}
+
+.buttonEdit {
+  position: absolute;
+  bottom: 30px;
+  background-color: transparent;
+}
+
+.smallButton {
+  width: 100px;
+  height: 40px;
+}
+
+.miniButton {
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  margin-top: 10px;
+}
